@@ -131,16 +131,47 @@ h1{
 
 section{
   height: 500px;
+  padding-bottom: 120px;
+
+
 }
-p{
-  color: green;
-  font-size: 20px;
-}
-.link{
+.box{
   text-decoration: none;
- background-image: linear-gradient(red, yellow);
-  color: white;
+  background-image: linear-gradient(red, yellow);
   padding: 10px 20px;
   border-radius: 10px;
-  font-weight: 700px;
+  color: white;
+}
+.amin{
+  width: 40%;
+  float: left;
+  padding: 5%;
+  margin left: 10%;
+}
+.ami{
+  color: orange;
+}
+.akram{
+  box-shadow: 10px 10px 20px gray;
+  padding: 10px;
+  margin: 50px;
+  border-radius: 10px;
+  height: 70%;
+}
+
+#aman{
+  border-left: 5px solid;
+  border-image: linear-gradient(180deg, red, orange);
+  border-image-slice: 1;
+  background-color: white;
+}
+
+#mam{
+  border-left: 5px solid;
+  border-image: linear-gradient(180deg, green, orange);
+  border-image-slice: 1;
+  background-color: white;
+}
+footer p{
+  text-align: center;
 }
